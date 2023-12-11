@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(to bottom right, #D2B48C, #987654);
+    background-image: linear-gradient(to bottom right, #FFD3E0, #FFC3D9, #FFB2D1, #FFA1CA);
 
 }
 
@@ -19,7 +19,7 @@ body {
     min-height: 400px;
     width: 540px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
 }
 
@@ -31,7 +31,7 @@ h1 {
 
 input[type="text"] {
     font-size: medium;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 10px;
     width: 80%;
     padding: 10px;
@@ -44,17 +44,19 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color:#452f2a ;
+    background-color: #8a5f58; 
     border: none;
-    border-radius: 5px;
+    border-radius: 15px; 
     color: rgb(255, 255, 255);
     font-weight: 500;
     cursor: pointer;
 
     &:hover {
-        background-color: #6e4f49;
+        background-color: #af7b73; 
     }
 }
+
+
 
 ul {
     list-style-type: none;
@@ -76,7 +78,7 @@ li {
     background-color: #dc3545;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 15px;
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -84,4 +86,5 @@ li {
 .delete-btn:hover {
     background-color: #c82333; 
 }
+
 
